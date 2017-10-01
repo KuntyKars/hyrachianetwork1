@@ -1,0 +1,23 @@
+{
+  "name": "hyrachianetwork",
+  "version": "1.0.0",
+  "description": "Allows you to communicate using electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "build --dir"
+  },
+  "build": {
+    "appId": "com.hyrachia.network",
+    "productName": "Hyrachia Network"
+  },
+  "author": "JustJayson",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.7.8"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}

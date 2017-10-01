@@ -1,0 +1,22 @@
+body {
+    background-color: #181818;
+    color: white;
+}
+
+@font-face { font-family: UnderAuthority; src: url('UnderAuthority.otf'); }
+@font-face { font-family: Underauthority; font-weight: bold; src: url('UnderAuthority.otf');}
+
+
+h1 {
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
